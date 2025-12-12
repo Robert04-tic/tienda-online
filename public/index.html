@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online - Sistema de Ventas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-store"></i>
+                <h1>TiendaOnline</h1>
+            </div>
+            <nav class="nav">
+                <a href="/" class="active"><i class="fas fa-home"></i> Inicio</a>
+                <a href="/carrito.html" class="cart-link">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </a>
+                <a href="/admin.html"><i class="fas fa-cog"></i> Admin</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="hero">
+        <div class="container">
+            <h2>Bienvenido a Nuestra Tienda</h2>
+            <p>Los mejores productos al mejor precio</p>
+            <a href="#productos" class="btn">Ver Productos</a>
+        </div>
+    </section>
+
+    <!-- Catálogo de Productos -->
+    <section class="products" id="productos">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-boxes"></i> Nuestros Productos</h2>
+            
+            <div class="filters">
+                <button class="filter-btn active" data-category="all">Todos</button>
+                <button class="filter-btn" data-category="electronica">Electrónica</button>
+                <button class="filter-btn" data-category="ropa">Ropa</button>
+                <button class="filter-btn" data-category="hogar">Hogar</button>
+            </div>
+
+            <div class="products-grid" id="productsGrid">
+                <!-- Los productos se cargan con JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Características -->
+    <section class="features">
+        <div class="container">
+            <div class="feature-card">
+                <i class="fas fa-shipping-fast"></i>
+                <h3>Envío Gratis</h3>
+                <p>En compras mayores a 50bs</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Pago Seguro</h3>
+                <p>Protegido con encriptación SSL</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-headset"></i>
+                <h3>Soporte 24/7</h3>
+                <p>Asistencia técnica permanente</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Tienda Online - Sistema de Ventas</p>
+            <p>Laboratorio de Implementación de Servidor Web</p>
+        </div>
+    </footer>
+
+    <!-- Modal Producto -->
+    <div class="modal" id="productModal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalProductContent"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

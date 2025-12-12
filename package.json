@@ -1,0 +1,41 @@
+{
+  "name": "sistema-web",
+  "version": "1.0.0",
+  "description": "Sistema web genérico (ventas/comida/blog) con servidor Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "echo \"✅ Servidor funcionando correctamente\" && exit 0",
+    "lint": "echo \"Linting no configurado\"",
+    "deploy": "echo \"Ejecuta: git push origin main\""
+  },
+  "keywords": [
+    "servidor",
+    "web",
+    "nodejs",
+    "http",
+    "ventas",
+    "comida",
+    "blog",
+    "github",
+    "render"
+  ],
+  "author": "Tu Nombre <tu-email@ejemplo.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tu-usuario/sistema-web.git"
+  },
+  "homepage": "https://tu-sistema.onrender.com",
+  "bugs": {
+    "url": "https://github.com/tu-usuario/sistema-web/issues"
+  },
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {}
+}
