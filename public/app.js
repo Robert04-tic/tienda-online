@@ -5,7 +5,7 @@ const productos = [
         nombre: "Laptop Gaming",
         precio: 1299.99,
         categoria: "electronica",
-        imagen: "assets/producto1.jpg",
+        imagen: "https://m.media-amazon.com/images/I/81Cm1VMdxrL._AC_SL1500_.jpg",
         descripcion: "Laptop para gaming con RTX 4060, 16GB RAM, 1TB SSD",
         stock: 10
     },
@@ -14,7 +14,7 @@ const productos = [
         nombre: "Smartphone Pro",
         precio: 899.99,
         categoria: "electronica",
-        imagen: "assets/producto2.jpg",
+        imagen: "https://chotog.com/cdn/shop/files/fd4ecc6960fe4500640867f29451c87c.jpg?v=1752567309&width=1445",
         descripcion: "Smartphone flagship con cámara de 108MP",
         stock: 15
     },
@@ -23,7 +23,7 @@ const productos = [
         nombre: "Auriculares Bluetooth",
         precio: 199.99,
         categoria: "electronica",
-        imagen: "assets/producto3.jpg",
+        imagen: "https://m.media-amazon.com/images/I/61lX+a+vOFL.jpg",
         descripcion: "Auriculares con cancelación de ruido",
         stock: 25
     },
@@ -32,7 +32,7 @@ const productos = [
         nombre: "Camiseta Algodón",
         precio: 29.99,
         categoria: "ropa",
-        imagen: "https://via.placeholder.com/400x300",
+        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaGYB2E1TKoaZE8GLH8fdTDka0SR4XqbfV0g&s",
         descripcion: "Camiseta 100% algodón orgánico",
         stock: 50
     },
@@ -41,7 +41,7 @@ const productos = [
         nombre: "Jeans Slim Fit",
         precio: 59.99,
         categoria: "ropa",
-        imagen: "https://via.placeholder.com/400x300",
+        imagen: "https://www.legendlondon.co/cdn/shop/files/legend-london-jeans-slim-2-0-slim-fit-jeans-2-0-light-blue-33701346607301.jpg?v=1702639210",
         descripcion: "Jeans ajustados de alta calidad",
         stock: 30
     },
@@ -50,7 +50,7 @@ const productos = [
         nombre: "Sofá Moderno",
         precio: 499.99,
         categoria: "hogar",
-        imagen: "https://via.placeholder.com/400x300",
+        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQofOkeR-iH10HjzzJZD6_INEP9tJi2fHBh7g&s",
         descripcion: "Sofá de 3 plazas en tela resistente",
         stock: 8
     },
@@ -59,7 +59,7 @@ const productos = [
         nombre: "Lámpara LED",
         precio: 39.99,
         categoria: "hogar",
-        imagen: "https://via.placeholder.com/400x300",
+        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROeZZl8KTXk2SvZtEbGS5d-iLExrFk2AzyhA&s",
         descripcion: "Lámpara inteligente con control por app",
         stock: 40
     },
@@ -68,7 +68,7 @@ const productos = [
         nombre: "Juego de Sartenes",
         precio: 89.99,
         categoria: "hogar",
-        imagen: "https://via.placeholder.com/400x300",
+        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZd84SqutK5zdww4Y5PDsKBynoIbI2SlBDpA&s",
         descripcion: "Set de 3 sartenes antiadherentes",
         stock: 20
     }
